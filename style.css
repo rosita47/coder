@@ -2,8 +2,10 @@
   --col-yellow: #ffc108;
 }
 
-* {
+body, html {
   font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -135,4 +137,9 @@ width: 50%;
 .service-detail-item p {
   font-size: 16px;
   padding: 0 16px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 16px 128px;
 }
