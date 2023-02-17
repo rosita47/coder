@@ -1,0 +1,29 @@
+.service-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 128px;
+  margin-top: 72px;
+}
+
+.service-detail-item {
+  box-shadow: -5px 4px 4px #979797;
+}
+
+.service-detail-item img {
+  width: 100%;
+}
+
+.service-detail-item h2 {
+  padding: 0 16px;
+}
+
+.service-detail-item p {
+  font-size: 16px;
+  padding: 0 16px;
+}
