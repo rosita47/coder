@@ -1,3 +1,7 @@
+:root {
+  --col-yellow: #ffc108;
+}
+
 * {
   font-family: "Montserrat";
 }
@@ -30,15 +34,15 @@ section {
 
 .btn {
   display: inline-block;
-  background-color: #ffc108;
-  border: 1px solid #ffc108;
+  background-color: var(--col-yellow);
+  border: 1px solid var(--col-yellow);
   color: white;
   padding: 0.2rem 1rem;
 }
 
 .btn-alt {
   background-color: white;
-  border: 1px solid #ffc108;
+  border: 1px solid var(--col-yellow);
   color: black;
   margin-right: 12px;
 }
@@ -56,6 +60,10 @@ section {
 
 nav > a {
   margin-left: 10px;
+}
+
+nav > a.active {
+  border-bottom: 2px solid var(--col-yellow);
 }
 
 #landing {
@@ -95,7 +103,7 @@ width: 50%;
 .about-stats-item div {
   width: 50px;
   height: 10px;
-  background-color: #ffc108; 
+  background-color: var(--col-yellow); 
   margin-bottom: 16px; 
 }
 
