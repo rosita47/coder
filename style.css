@@ -31,6 +31,7 @@ header nav > a {
   margin-left: 10px;
 }
 
+header nav > a:hover,
 header nav > a.active {
   border-bottom: 2px solid var(--col-yellow);
 }
@@ -43,9 +44,31 @@ header+section {
 
 /* START Footer */
 footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   background-color: #f0f0f0;
   padding: 16px 128px;
 }
+
+footer .social-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem 2rem;
+  align-items: center;
+}
+
+footer .social-links img {
+  width: 6rem;
+  height: auto;
+  background-color: var(--col-yellow);
+  border-radius: 1rem;
+  transition: all .3s ease;
+}
+
+footer .social-links img:hover {
+  transform: scale(1.4);
+}
+
 /* END Footer */
 
 
