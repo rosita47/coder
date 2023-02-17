@@ -1,0 +1,126 @@
+* {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 0 16px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+p {
+  color: #979797;
+  margin: 0 0 16px 0;
+  font-size: 24px;
+}
+
+section {
+  padding: 64px 128px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffc108;
+  border: 1px solid #ffc108;
+  color: white;
+  padding: 0.2rem 1rem;
+}
+
+.btn-alt {
+  background-color: white;
+  border: 1px solid #ffc108;
+  color: black;
+  margin-right: 12px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 128px;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+nav > a {
+  margin-left: 10px;
+}
+
+#landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+#landing p {
+  margin-bottom: 32px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+#about > div {
+width: 50%;
+}
+
+#about-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-top: 72px;
+}
+.about-stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-stats-item div {
+  width: 50px;
+  height: 10px;
+  background-color: #ffc108; 
+  margin-bottom: 16px; 
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 128px;
+  margin-top: 72px;
+}
+
+.service-detail-item {
+  box-shadow: -5px 4px 4px #979797;
+}
+
+.service-detail-item img {
+  width: 100%;
+}
+
+.service-detail-item h2 {
+  padding: 0 16px;
+}
+
+.service-detail-item p {
+  font-size: 16px;
+  padding: 0 16px;
+}
