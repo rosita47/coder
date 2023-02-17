@@ -6,6 +6,7 @@ body, html {
   font-family: "Montserrat";
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 h1 {
@@ -142,4 +143,13 @@ width: 50%;
 footer {
   background-color: #f0f0f0;
   padding: 16px 128px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header+section {
+  flex: 1;
 }
