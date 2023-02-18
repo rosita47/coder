@@ -12,6 +12,7 @@
     grid-template-areas: "name subject"
                             "email phone"
                             "message message" ;
+                            
 }
 
 .input-group {
