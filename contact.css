@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 72px;
+    column-gap: 128px;
 }
 
 form {
@@ -25,9 +26,9 @@ form button {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 32px;
     margin-top: 32px;
-    grid-template-areas: "name subject"
+    grid-template-areas:    "name subject"
                             "email phone"
-                            "message message" ;
+                            "message message";
 }
 
 #input-name {
