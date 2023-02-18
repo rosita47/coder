@@ -1,0 +1,34 @@
+.contact-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+    margin-top: 32px;
+    grid-template-areas: "name subject"
+                            "email phone"
+                            "message message" ;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.input-group {
+    font-weight: 700;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
