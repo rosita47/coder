@@ -49,6 +49,7 @@ form button {
 
 #input-message {
     grid-area: message;
+    
 }
 
 .input-group {
